@@ -1,0 +1,5 @@
+Hashtable vs HashMap
+
+Hashtable and HashMap both extends the Map interface
+Main drawback with HashMap is that it allows diff thread access hence creating the thread-safe issue
+Main drawback with Hashtable is that it overcomes the thread-safe issue by being synchronised and hence becomes a performance bottleneck
